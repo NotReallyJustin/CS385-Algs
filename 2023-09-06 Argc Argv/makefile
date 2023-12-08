@@ -1,6 +1,6 @@
 CXX      = g++
 CXX_FILE = $(wildcard *.cpp)
-TARGET   = $(patsubst %.cpp,%,$(CXX_FILE))
+TARGET   = $(patsubst %.cpp,%,$(CXX_FILE)) 
 CXXFLAGS = -g -std=c++17 -Wall -Werror -pedantic-errors -fmessage-length=0
 
 all:
