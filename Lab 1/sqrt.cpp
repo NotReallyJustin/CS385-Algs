@@ -67,7 +67,7 @@ int main(int argc, char* argv[])
         if (!(iss >> value))
         {
             cerr << "Error: Value argument must be a double." << endl;
-            return 1;
+            return -1;
         }
 
         iss.clear();
