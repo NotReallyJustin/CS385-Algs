@@ -5,7 +5,7 @@
 using namespace std;
 
 /**
- * Your average node structure.
+ * Your average node structure. 
  * Remember that depth == The height from the top of the tree
 */
 struct Node {
